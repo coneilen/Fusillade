@@ -52,6 +52,10 @@
     <None Include="Http\fixtures\ResponseWithETag" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\punchclock\src\Punchclock\Punchclock.csproj">
+      <Project>{75deb565-ecb8-4db8-97c0-1eec1fd08413}</Project>
+      <Name>Punchclock</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Fusillade\Fusillade.csproj">
       <Project>{26493c47-6a4a-4f2a-9f92-046aa8cd95cc}</Project>
       <Name>Fusillade</Name>
@@ -59,19 +63,19 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="akavache">
-      <Version>6.0.0-alpha0038</Version>
+      <Version>6.2.3</Version>
     </PackageReference>
     <PackageReference Include="MSBuild.Sdk.Extras">
       <Version>1.1.0-beta.69</Version>
     </PackageReference>
     <PackageReference Include="reactiveui">
-      <Version>8.0.0-alpha0073</Version>
+      <Version>9.7.2</Version>
     </PackageReference>
     <PackageReference Include="reactiveui-testing">
       <Version>8.0.0-alpha0073</Version>
     </PackageReference>
     <PackageReference Include="system.reactive">
-      <Version>3.1.1</Version>
+      <Version>4.1.2</Version>
     </PackageReference>
     <PackageReference Include="xunit">
       <Version>2.2.0</Version>

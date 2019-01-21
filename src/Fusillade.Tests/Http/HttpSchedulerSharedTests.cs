@@ -15,6 +15,7 @@ using Fusillade;
 using Microsoft.Reactive.Testing;
 using Punchclock;
 using ReactiveUI;
+using ReactiveUI.Legacy;
 using ReactiveUI.Testing;
 using Xunit;
 

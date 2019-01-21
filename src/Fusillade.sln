@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fusillade", "Fusillade\Fusi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fusillade.Tests", "Fusillade.Tests\Fusillade.Tests.csproj", "{BA0745E4-4566-4655-B83C-B4398F67DC39}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Punchclock", "..\..\punchclock\src\Punchclock\Punchclock.csproj", "{75DEB565-ECB8-4DB8-97C0-1EEC1FD08413}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Punchclock.Tests", "..\..\punchclock\src\Punchclock.Tests\Punchclock.Tests.csproj", "{1966B9AC-F962-4AAD-9B17-E581D12619A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{BA0745E4-4566-4655-B83C-B4398F67DC39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA0745E4-4566-4655-B83C-B4398F67DC39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA0745E4-4566-4655-B83C-B4398F67DC39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75DEB565-ECB8-4DB8-97C0-1EEC1FD08413}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75DEB565-ECB8-4DB8-97C0-1EEC1FD08413}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75DEB565-ECB8-4DB8-97C0-1EEC1FD08413}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75DEB565-ECB8-4DB8-97C0-1EEC1FD08413}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1966B9AC-F962-4AAD-9B17-E581D12619A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1966B9AC-F962-4AAD-9B17-E581D12619A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1966B9AC-F962-4AAD-9B17-E581D12619A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1966B9AC-F962-4AAD-9B17-E581D12619A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
